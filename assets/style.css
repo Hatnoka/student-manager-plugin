@@ -1,0 +1,14 @@
+    .sm-container { clear: both; margin: 20px 0; }
+    .sm-student-table { width: 100%; border-collapse: collapse; background: #fff; }
+    .sm-student-table th { background: #007cba !important; color: #fff !important; padding: 10px; border: 1px solid #ddd; }
+    .sm-student-table td { padding: 10px; border: 1px solid #ddd; color: #333; }
+
+    /* CHỈ ẨN CÁC THÀNH PHẦN LẠ, KHÔNG ẨN CHỮ TRONG Ô */
+    .sm-student-table img, 
+    .sm-student-table .main-navigation,
+    .sm-student-table .menu { 
+        display: none !important; 
+    }
+
+    /* Đảm bảo chữ trong ô không bị ẩn */
+    .sm-student-table td { display: table-cell !important; visibility: visible !important; }
